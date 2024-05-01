@@ -46,7 +46,7 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*PANTHER-MD MD IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*xky-ley-3.0 MD IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
