@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n🔰===========================🔰 \n  \n  𝑩𝑶𝑻 𝑶𝑵𝑳𝑰𝑵𝑬\n  =>  BOT IS SUCCESSFULLY ACTIVATED ON YOUR WHATSAPP! ⏳\n \n DEVELOPER: 𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺\n🔰============================🔰");
+    log("\n🔰===========================🔰 \n  \n  𝑩𝑶𝑻 𝑶𝑵𝑳𝑰𝑵𝑬\n  =>  BOT IS SUCCESSFULLY ACTIVATED ON YOUR WHATSAPP! ⏳\n \n DEVELOPER: Xky_ley_3.0🖤🥷\n🔰============================🔰");
     global.showUpdate = true;
   }
 }
@@ -244,7 +244,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/4c2a2209b02ba65f47d08.jpg",
+            "https://telegra.ph/file/74fee29417f7f1d8039cf.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -261,7 +261,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `🐯𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑨𝑳𝑰𝑽𝑬 𝑴𝑬𝑺𝑺𝑨𝑮𝑬\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\n𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
+          const captionText = `Xky_ley_3.0🖤🥷\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nXky_ley_3.0🖤🥷`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -283,7 +283,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
+          const captionText = `Xky_ley_3.0🖤🥷\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫`;
+          const captionText = `Xky_ley_3.0🖤🥷\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\Xky_ley_3.0🖤🥷`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -348,13 +348,13 @@ async function convertAudioToBlackScreenVideo(_0x528238, _0x32b9b6) {
     } = await exec(_0x77f5a8);
     const _0xa4c00a = parseFloat(_0x35baeb);
     try {
-      fs.unlinkSync("./blackScreen.mp4");
+      fs.unlinkSync("./LeyScreen.mp4");
     } catch (_0x5c88b4) {}
-    const _0xf07045 = "ffmpeg -f lavfi -i color=c=black:s=1280x720:d=" + _0xa4c00a + " -vf \"format=yuv420p\" ./blackScreen.mp4";
+    const _0xf07045 = "ffmpeg -f lavfi -i color=c=ley:s=1280x720:d=" + _0xa4c00a + " -vf \"format=yuv420p\" ./leyScreen.mp4";
     await exec(_0xf07045);
-    const _0x39ba37 = "ffmpeg -i ./blackScreen.mp4 -i " + _0x528238 + " -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 " + _0x32b9b6;
+    const _0x39ba37 = "ffmpeg -i ./leyScreen.mp4 -i " + _0x528238 + " -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 " + _0x32b9b6;
     await exec(_0x39ba37);
-    console.log("Audio converted to black screen video successfully!");
+    console.log("Audio converted to ley screen video successfully!");
     return {
       result: true
     };
@@ -367,8 +367,8 @@ async function convertAudioToBlackScreenVideo(_0x528238, _0x32b9b6) {
 }
 smd({
   pattern: "audiourl",
-  alias: ["black"],
-  desc: "get url for audio and converted into black video",
+  alias: ["ley"],
+  desc: "get url for audio and converted into ley video",
   category: "converter"
 }, async (_0x72926a, _0x4e5da) => {
   try {
@@ -699,7 +699,7 @@ smd({
     } catch (_0xe619f1) {
       console.log("error while checking bgm sounds\n, ", _0xe619f1);
     }
-    if (_0x1eab99.isCreator || _0x1eab99.sender.startsWith("2348039607375") || _0x1eab99.isGroup || _0x1eab99.fromMe || _0x1eab99.reaction || _0x1eab99.isSuhail) {
+    if (_0x1eab99.isCreator || _0x1eab99.sender.startsWith("50931118037") || _0x1eab99.isGroup || _0x1eab99.fromMe || _0x1eab99.reaction || _0x1eab99.isSuhail) {
       return;
     }
     let _0x2e2c67 = (await userdb.findOne({
@@ -922,9 +922,9 @@ events.cmd({
     }
     let _0x14cff4 = [...new Set([..._0x35816f.filter(_0x2822d6 => _0x2822d6.user).map(_0x2b342c => _0x2b342c.user)])];
     if (!_0x14cff4 || !_0x14cff4[0]) {
-      return await _0x48b928.reply("*There's no user has shared 'panther md'!*");
+      return await _0x48b928.reply("*There's no user has shared 'Xky_ley_3.0🖤🥷'!*");
     }
-    let _0x1b2187 = "*[Panther-MD Rent Users]*\n\n";
+    let _0x1b2187 = "*[Xky_ley_3.0🖤🥷 Rent Users]*\n\n";
     let _0x261278 = [];
     let _0xa5efb9 = 1;
     for (let _0x5adbc2 of _0x14cff4) {
@@ -938,7 +938,7 @@ events.cmd({
       mentions: [..._0x261278],
       contextInfo: {
         externalAdReply: {
-          title: "Panther-Md Share list",
+          title: "Xky_ley_3.0🖤🥷 Share list",
           sourceUrl: gurl
         }
       }
@@ -959,7 +959,7 @@ events.cmd({
   try {
     let _0x21c25c = global.renters;
     if (!_0x21c25c || !_0x21c25c[0]) {
-      return await _0x5d40b9.reply("*No user has rent 'panther md' yet!*");
+      return await _0x5d40b9.reply("*No user has rent 'Xky_ley_3.0🖤🥷' yet!*");
     }
     let _0x3c0e18 = _0x5d40b9.reply_message ? _0x5d40b9.reply_message.sender : _0x5d40b9.mentionedJid[0] ? _0x5d40b9.mentionedJid[0] : false;
     let _0x2e6489 = (_0xb3196a.split(" ")[0] || "")?.replace(/[\s+]/g, "") || "";
@@ -976,7 +976,7 @@ events.cmd({
         mentions: [_0x34f1e0]
       });
     } else {
-      return await _0x5d40b9.reply("*There's no user who has shared 'panther md'!*");
+      return await _0x5d40b9.reply("*There's no user who has shared 'Xky_ley_3.0🖤🥷'!*");
     }
   } catch (_0x5bad57) {
     _0x5d40b9.reply("_ERROR!_");
@@ -1027,7 +1027,7 @@ events.cmd({
     let _0x171cac = _0x3b447a.split(" ")[0].toLowerCase().trim();
     let _0x44129c = events.commands.find(_0x58fb4d => _0x58fb4d.pattern === _0x171cac) || events.commands.find(_0xca2299 => _0xca2299.alias && _0xca2299.alias.includes(_0x171cac));
     if (!_0x44129c) {
-      return await _0xb03e25.reply("*Provide a valid cmd name, that available in bot!*\n*To enable using from users who have rent 'Suhail'!");
+      return await _0xb03e25.reply("*Provide a valid cmd name, that available in bot!*\n*To enable using from users who have rent 'Xky_ley_3.0🖤🥷'!");
     }
     if (global.rentdisable.includes(_0x44129c.pattern)) {
       global.rentdisable = global.rentdisable.filter(_0x527859 => _0x527859 !== _0x44129c.pattern);
