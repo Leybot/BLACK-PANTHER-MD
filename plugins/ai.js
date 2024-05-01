@@ -316,7 +316,7 @@ smd({
     if (!res.status === 200) return message.send("*There's a problem, try again later!*");
 
     const { result } = res;
-    const astro = "PANTHER 𝙂𝙋𝙏4\n "
+    const astro = "Xky_ley_3.0🖤🥷 𝙂𝙋𝙏4\n "
     const tbl = "```";
     await send(message, `${astro}${tbl}${result}${tbl}`);
   } catch (e) {
@@ -338,7 +338,7 @@ smd({
     if (!res.status === 200) return message.send("*There's a problem, try again later!*");
 
     const { result } = res;
-    const astro = "Panther*GEMINI* 𝘼𝙄"
+    const astro = "Xky_ley_3.0🖤🥷*GEMINI* 𝘼𝙄"
     const tbl = "```";
     await send(message, `${astro}${tbl}${result}${tbl}`);
   } catch (e) {
@@ -632,7 +632,7 @@ smd(
     pattern: "aitts",
     desc: "Text to Voice Using Eleven Lab Ai",
     category: "ai",
-    use: "<Hii, Ibrahim>",
+    use: "<Hii, Xky_ley_3.0🖤🥷>",
     filename: __filename,
   },
   async (_0x1a01af, _0x1ac85a) => {
@@ -658,7 +658,7 @@ smd(
     alias: ["recognition", "anonychat"],
     desc: "Send message Annonymously",
     category: "ai",
-    use: "<Hii, Ibrahim>",
+    use: "<Hii, Xky_ley_3.0🖤🥷>",
     filename: __filename,
   },
   async (_0x358984, _0x20693a, { smd: _0x12d243 }) => {
@@ -668,7 +668,7 @@ smd(
         return await _0x358984.send(
           "*provide number with msg to send Anonymously.* \n*Example " +
             (prefix + _0x12d243) +
-            " 2348039607375,your_Message*",
+            " 50931118037,your_Message*",
           {},
           "",
           _0x358984
@@ -702,7 +702,7 @@ smd(
         _0x3079e2.msgStatus = true;
         _0x3079e2.senderMsg = _0x358984;
         _0x5f656f =
-          "*Black-Panther-Md• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
+          "*Xky_ley_3.0🖤🥷• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
           _0x3079e2.id +
           "\n*Date:* _" +
           _0xbcd286 +
@@ -745,7 +745,7 @@ smd(
           return;
         }
         if (
-          _0x2acf30.reply_text.includes("Panther-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+          _0x2acf30.reply_text.includes("ley-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
           _0x2dfb59[0].includes("Panther-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
           _0x2dfb59[2].includes("Msg_Id")
         ) {
@@ -761,7 +761,7 @@ smd(
                 _0x2ecd2a.howmanyreply += 1;
                 const _0x5a2204 = _0x2acf30.text.indexOf(",");
                 let _0x3f6b59 =
-                  "*Panther-ᴍᴅ • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
+                  "*ley-ᴍᴅ • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
                   _0x2ecd2a.reciever.split("@")[0] +
                   "_*\n*_Msg_Id: " +
                   _0x2ecd2a.id +
