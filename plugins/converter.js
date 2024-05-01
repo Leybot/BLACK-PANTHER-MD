@@ -58,7 +58,7 @@ smd({
     }
     let _0x44d3dd = _0x3febcd.split("|");
     let _0x47c982 = _0x44d3dd[0]?.trim() !== "" ? _0x44d3dd[0] : _0x471740.pushName;
-    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "Panther 🐯";
+    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "Xky_ley_3.0🖤🥷";
     let _0x3ab776 = await _0xad98fb.download();
     let _0x3d0871 = {
       pack: _0x47c982,
@@ -178,7 +178,7 @@ smd({
     const _0x4cf39c = _0x2b9570?.urls?.regular || false;
     if (_0x4cf39c) {
       await _0x5c07ae.sendUi(_0x5c07ae.jid, {
-        caption: "*---Panther Wallpapers Here---*"
+        caption: "*---Xky_ley_3.0🖤🥷 Wallpapers Here---*"
       }, {
         quoted: _0x5c07ae
       }, "image", _0x4cf39c);
@@ -312,7 +312,7 @@ smd({
     try {
       await _0xa1cfa2.send(_0x3dabe8, {
         packname: Config.packname,
-        author: "Suhail-Md"
+        author: "Xky-ley-Md"
       }, "sticker");
     } catch (_0x5763ea) {
       console.log("error in quotely : ", _0x5763ea);
@@ -336,7 +336,7 @@ smd({
   filename: __filename
 }, async (_0x230c03, _0x3b568a) => {
   try {
-    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*🔰PANTHER-MD_FANCY_TEXT🔰* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy Panther(For all text)\n\t\t" + prefix + "fancy 25 Panther(For specific text)```\n\n");
+    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*🔰XKY-LEY-MD_FANCY_TEXT🔰* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy Xky_ley_3.0🖤🥷(For all text)\n\t\t" + prefix + "fancy 25 Xky_ley_3.0🖤🥷(For specific text)```\n\n");
     let _0x50c7d9 = parseInt(_0x3b568a);
     if (isNaN(_0x50c7d9)) {
       let _0x4ca942 = _0x3b568a ? _0x3b568a : "Panther";
@@ -669,7 +669,7 @@ smd({
         return _0x3dac0f = false;
       });
     } else {
-      return _0x54e3dc.reply("*_Uhh Dear, provide text, ex .ttp 4 hii im suhail!!_*");
+      return _0x54e3dc.reply("*_Uhh Dear, provide text, ex .ttp 4 hii im ley!!_*");
     }
   } catch (_0x72e5d) {
     return await _0x54e3dc.error(_0x72e5d + "\n\ncmdName: ttp\n");
