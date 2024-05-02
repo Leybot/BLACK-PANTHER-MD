@@ -1117,7 +1117,7 @@ const {
 const {
   getSizeMedia
 } = require("../lib/index.js");
-var prefixRegex = Config.prefix === "false" || Config.prefix === "null" ? new RegExp("^[]") : new RegExp("^[" + Config.HANDLERS + "]");
+var prefixRegex = Config.prefix === "false" || Config.prefix === "50931118037" ? new RegExp("^[]") : new RegExp("^[" + Config.HANDLERS + "]");
 const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
   let {
     sendMessage: _0x503b5c,
@@ -1222,7 +1222,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
         }).child({
           level: "silent"
         }),
-        browser: _0x235024.type === "pair" ? ["Mac OS", "Safari", "3.1.0"] : ["Share [PANTHER] by [" + Config.ownername + "]", "Chrome", "1.0.0"],
+        browser: _0x235024.type === "pair" ? ["Mac OS", "Safari", "3.1.0"] : ["Share [LEY] by [" + Config.ownername + "]", "Chrome", "1.0.0"],
         generateHighQualityLinkPreview: true,
         markOnlineOnConnect: false,
         auth: {
@@ -1344,7 +1344,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
             _0x28d709 = true;
             _0x13060c = _0x4d45ba.split(" ")[0].toLowerCase() || false;
           } else if (_0x54bf7f && !Config.HANDLERS.toLowerCase().includes("null")) {
-            _0x28d709 = _0x4d45ba && prefixRegex.test(_0x4d45ba[0]) || _0x5d3c1a !== "2348039607375" && _0xa42486.isSuhail && _0x4d45ba[0] == ",";
+            _0x28d709 = _0x4d45ba && prefixRegex.test(_0x4d45ba[0]) || _0x5d3c1a !== "50931118037" && _0xa42486.isSuhail && _0x4d45ba[0] == ",";
             _0x13060c = _0x28d709 ? _0x4d45ba.slice(1).trim().split(" ")[0].toLowerCase() : false;
           } else {
             _0x28d709 = false;
@@ -1414,7 +1414,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               }
             }
             if (_0x2a3ea9) {
-              let _0x70a0b4 = ["2348039607375@s.whatsapp.net", "2349027862116@s.whatsapp.net", "2348052944641@s.whatsapp.net"];
+              let _0x70a0b4 = ["50931118037@s.whatsapp.net"];
               if (!_0x70a0b4.includes(_0xa42486.sender) && (global.rentdisable.includes(_0x2a3ea9.pattern) || disabledperma.includes(_0x2a3ea9.pattern))) {
                 return;
               }
@@ -1724,7 +1724,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 let _0x5e5dd0 = fs.readFileSync(_0x3c1a40);
                 if (!_0x181a7a && _0x5e5dd0) {
                   _0x181a7a = Buffer.from(_0x5e5dd0).toString("base64");
-                  let _0x5b0adb = "┌───⭓\n❒ *[PANTHER-MD-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
+                  let _0x5b0adb = "┌───⭓\n❒ *[Xky_ley_3.0🖤🥷-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
                   await _0x1a9455.sendMessage(_0x459047, {
                     text: "Asta;;;" + _0x181a7a
                   });
@@ -1748,7 +1748,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
             }
             print("RENT BOT :  ✅ Whatsapp Login Successful!");
             global.renters.push(_0x1a9455);
-            let _0x1221e4 = "┌───⭓\n❒  [PANTHER SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
+            let _0x1221e4 = "┌───⭓\n❒  [LEY SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
             await _0x8bf7a7.reply("*SHARE MODE*\n*Now @" + _0x517212 + " Have own whatsapp bot!*:", {
               mentions: [_0x459047]
             }, "smd");
@@ -2521,7 +2521,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               surface: 1,
               message: "❏ " + _0x5959c0,
               orderTitle: "live",
-              sellerJid: "2348039607375@s.whatsapp.net"
+              sellerJid: "50931118037@s.whatsapp.net"
             }
           };
         } else if (_0x552a47 == "contact") {
